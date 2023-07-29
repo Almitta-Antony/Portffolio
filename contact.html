@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./second.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        .btn {
+            background-color: rgb(255, 255, 255);
+            color: black;
+            border: 1px solid black;
+            width: 330px;
+        }
+
+        .btn:hover {
+            background-color: black;
+            color: white;
+            border-color: white;
+        }
+.ci1{
+    margin-top: 270px; 
+    margin-left: 50px;
+    transition: 0.5s;
+}
+.ci1:hover{
+    scale: 1.05;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+            @media(max-width:400px){
+                .contact-body{
+                    width:50%;
+                    height: 1800px;
+
+
+                }
+                #ch1{
+                    font-size: 15px;
+                }
+                #cp1{
+                    font-size: 8px;
+                }
+                .form-control{
+                    width: 150px;
+                    margin-left: -20px;
+                }
+                .i1{
+                    width: 200px;
+                }
+                .i2{
+                    width: 200px;
+                    margin-left: -150px;
+                }
+                .btn{
+                    width: 150px;
+                    margin-left: -20px;
+                }
+                .ci1{
+                    margin-top: 180px;
+                    margin-left: 8px;
+                    transition: 0.5s;
+                }
+                .ci1:hover{
+    scale: 1.05;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+                #cm1{
+                    height: 30px;
+                }
+            }
+        
+    </style>
+</head>
+
+<body style="background-color: #e6dada;">
+
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg  m-0 sticky-top" style="background-color: #caa3ae; height: 70px; margin-top: -10px;">
+        <div class="container-fluid">
+            <!-- ... rest of the code ... -->
+            <a class="navbar-brand" style=" font-family: 'Times New Roman', Times, serif !important" href="#">ALMITTA ANTONY</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto p-3 ">
+                    <li class="nav-item border-top me-5">
+                        <a class="nav-link " aria-current="page" style=" font-family: 'Times New Roman', Times, serif !important" href="./second.html">About</a>
+                    </li>
+                    <li class="nav-item border-top me-5">
+                        <a class="nav-link " aria-current="page" style=" font-family: 'Times New Roman', Times, serif !important" href="./works.html">Works</a>
+                    </li>
+                    <li class="nav-item border-top">
+                        <a class="nav-link active" aria-current="page" style=" font-family: 'Times New Roman', Times, serif !important" href="#">Contact </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- contact -->
+
+    <div class="contact-body container w-50 mt-5" style="background-color:  rgb(182, 176, 176); height: 700px; border: 1px white solid;">
+        <div class="row ">
+            <div class="col-lg-6">
+                <h3 class="mb-4" id="ch1">Get in Touch</h3>
+                <p style="align-items: start;" id="cp1">For enquires send me a message using the form below, and i'll get back to you as soon as possible.</p>
+                <form>
+                    
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="First Name"
+                                style="border-radius: 0px; "><br>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Last Name"
+                                style="border-radius: 0px; "><br>
+                        </div>
+
+                        
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="E-mail"
+                            style="border-radius: 0px; "><br>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Subject"
+                            style="border-radius: 0px; "><br>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="5" cols="100" placeholder="Message"
+                            style="border-radius: 0px; " id="cm1"></textarea>
+                    </div><br>
+                    <button type="submit" class="btn btn-light btn-block"
+                        style="border-radius: 0px; ">Submit</button>
+                </form>
+            </div>
+            <div class="col-lg-6 col-sm-12" style="margin-top: -150px;">
+                <img class="ci1" src="./images/contact.jpeg" alt="" >
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="container-fluid mt-5" style="background-color: rgb(187, 150, 169); height: 300px; font-family: 'Edu SA Beginner', cursive;">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1 class="mt-5">Almitta Antony</h1>
+                <div class="d-flex justify-content-center">
+                    <a href=""><i class="fab fa-instagram fa-2x p-2" style="color: #e3b5e0;"></i></a>
+                    <a href=""><i class="fab fa-github fa-2x p-2" style="color: #e3b5e0;"></i></a>
+                    <a href=""><i class="fas fa-envelope fa-2x p-2" style="color: #e3b5e0;"></i></a>
+                    <a href=""><i class="fab fa-twitter fa-2x p-2" style="color: #e0bee4;"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
