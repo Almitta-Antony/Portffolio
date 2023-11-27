@@ -22,27 +22,36 @@ div{
 }
 .a1:hover{
     background-color: transparent;
+
    
 }
-@media (max-width: 400px) {
+
+
+
+
+@media (max-width: 500px) {
     body {
+        background-image: url(./images/b1.jpg) ;
+
          /* Allow the body height to adjust according to content */
         padding: 20px; /* Add some padding to elements inside the body */
         background-size: 100% auto;
         background-repeat:no-repeat ;
-        background-size: 500px 700px;  /* Increase the height to 300 pixels */
-        
+        background-size: 500px 900px;  /* Increase the height to 300 pixels */
+        background-color: rgb(247, 244, 239) !important;
     }
     .index1 {
         margin-top: 300px;
-        
         margin-left: -30px; /* Adjust the left margin on smaller screens */
     }
+
     .f1{
-        font-size: 3px;
+        font-size: 30px;
     }
+
     .f2{
         font-size: 15px;
+
     }
     .a1{
         font-size: 12px;
