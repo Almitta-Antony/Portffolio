@@ -31,7 +31,7 @@ div{
 
 @media (max-width: 500px) {
     body {
-        background-image: url(./images/b1.jpg) ;
+        background-image: url(./images/B1.jpg) ;
 
          /* Allow the body height to adjust according to content */
         padding: 20px; /* Add some padding to elements inside the body */
